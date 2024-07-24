@@ -51,7 +51,7 @@
       .juzhong{
         padding:0ch;
         justify-content: center;
-        text-align: center
+        text-align: center;
       }
     </style>
   </head>
@@ -69,19 +69,19 @@
         class="flex"
       >
         <img
-          src="https://img.kemono.su/thumbnail/data/a4/9d/a49d766a00531d7690161264d3e82d19811e5aa5bea45760b6231a90ce2a1100.jpg"
+          src="https://www.danmuxiu.cn/uploads/allimg/220126/1-220126002I9625.jpg"
           height="60px"
         />
-        <div style="margin-left: 20px">haofanky</div>
+        <div style="margin-left: 10px">aurorawoods</div>
       </div>
       <!--导航栏-->
       <div class="flex1">
         <div class="daohang">
-          <a href="https://haofanky.github.io/test01/yuan index">收藏</a>
+          <a href="https://www.baidu.com/">资源</a>
         </div>
 
         <div class="daohang">
-          <a href="https://haofanky.github.io/test01/wangpan">网盘</a>
+          <a href="">网盘</a>
         </div>
 
         <div class="daohang">导航</div>
@@ -94,7 +94,7 @@
       <!--头部栏-->
       <div style="height: 60px; z-index: 1" class="baiSe yinYing">
         <div class="juzhong">
-          <h2>haofanky小窝<h2>
+          <h2>Aurorawoods的主页<h2>
         </div>
       </div>
       <!--内容区-->
@@ -104,7 +104,10 @@
           <!--数据区-->
           <div class="flex">
             <div style="height: 100px" class="flex1 baiSe yinYing mgr8">
-              FIRST
+              <div>
+                <a href=""></a>
+                <p>test</p>
+              </div>
             </div>
             <div style="height: 100px" class="flex1 baiSe yinYing mgr8">
               SECOND
