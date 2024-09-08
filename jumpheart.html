@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        /* 让容器的宽度和高度充满全屏 */
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        background-color: pink;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .star {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        transform: rotate(45deg);
+        animation: starbit 1s alternate infinite;
+        box-shadow: 0 0 70px red;
+      }
+      .star::before {
+        content: "";
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        left: 0;
+        top: -99px;
+        border-radius: 100px 100px 0 0;
+      }
+      .star::after {
+        content: "";
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        left: -99px;
+        top: 0;
+        border-radius: 100px 0 0 100px;
+      }
+      /* 实现动画，让心跳动 */
+      @keyframes starbit {
+        0% {
+          transform: rotate(45deg) scale(0.6);
+        }
+        100% {
+          transform: rotate(45deg) scale(1.2);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="star"></div>
+  </body>
+</html>
